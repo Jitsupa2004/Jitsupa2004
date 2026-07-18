@@ -21,18 +21,12 @@
       inset: 0;
       background: repeating-linear-gradient(
         135deg,
-        rgba(255,182,193,0.15) 0px,
-        rgba(255,182,193,0.15) 40px,
-        rgba(255,218,185,0.15) 40px,
-        rgba(255,218,185,0.15) 80px,
-        rgba(255,255,186,0.15) 80px,
-        rgba(255,255,186,0.15) 120px,
-        rgba(186,255,201,0.15) 120px,
-        rgba(186,255,201,0.15) 160px,
-        rgba(186,225,255,0.15) 160px,
-        rgba(186,225,255,0.15) 200px,
-        rgba(216,191,255,0.15) 200px,
-        rgba(216,191,255,0.15) 240px
+        rgba(255,182,193,0.15) 0px, rgba(255,182,193,0.15) 40px,
+        rgba(255,218,185,0.15) 40px, rgba(255,218,185,0.15) 80px,
+        rgba(255,255,186,0.15) 80px, rgba(255,255,186,0.15) 120px,
+        rgba(186,255,201,0.15) 120px, rgba(186,255,201,0.15) 160px,
+        rgba(186,225,255,0.15) 160px, rgba(186,225,255,0.15) 200px,
+        rgba(216,191,255,0.15) 200px, rgba(216,191,255,0.15) 240px
       );
       pointer-events: none;
       z-index: 0;
@@ -42,9 +36,7 @@
 
     .rainbow-bar {
       height: 6px;
-      background: linear-gradient(90deg,
-        #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff, #d4baff
-      );
+      background: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff, #d4baff);
     }
 
     header {
@@ -103,9 +95,7 @@
       position: absolute;
       top: 0; left: 0; right: 0;
       height: 5px;
-      background: linear-gradient(90deg,
-        #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff, #d4baff
-      );
+      background: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff, #d4baff);
     }
 
     .hero img {
@@ -131,12 +121,7 @@
       margin-bottom: 0.3rem;
     }
 
-    .hero .role {
-      font-size: 0.88rem;
-      color: #aaa;
-      letter-spacing: 0.05em;
-      margin-bottom: 1rem;
-    }
+    .hero .role { font-size: 0.88rem; color: #aaa; letter-spacing: 0.05em; margin-bottom: 1rem; }
 
     .hero .bio {
       display: inline-block;
@@ -187,24 +172,14 @@
       gap: 8px;
     }
 
-    .dot {
-      width: 10px; height: 10px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
+    .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
     .dot-pink   { background: #ffb3ba; }
     .dot-yellow { background: #ffd700; }
     .dot-blue   { background: #bae1ff; }
     .dot-purple { background: #d4baff; }
     .dot-green  { background: #baffc9; }
 
-    p, li {
-      line-height: 1.9;
-      color: #666;
-      font-size: 0.93rem;
-    }
-
+    p, li { line-height: 1.9; color: #666; font-size: 0.93rem; }
     ul { padding-left: 1.3rem; }
     ul li { margin-bottom: 0.4rem; }
     ul li::marker { color: #ffb3ba; }
@@ -230,13 +205,7 @@
 
     .tags { display: flex; flex-wrap: wrap; gap: 8px; }
 
-    .tag {
-      border-radius: 20px;
-      padding: 5px 16px;
-      font-size: 0.84rem;
-      border: 1px solid transparent;
-    }
-
+    .tag { border-radius: 20px; padding: 5px 16px; font-size: 0.84rem; border: 1px solid transparent; }
     .tag-pink   { background: #fff0f2; color: #e87a87; border-color: #ffb3ba; }
     .tag-yellow { background: #fffbea; color: #c9940a; border-color: #ffd700; }
     .tag-blue   { background: #f0f8ff; color: #5a9fd4; border-color: #bae1ff; }
@@ -257,7 +226,6 @@
     .contact-row a { color: #9b8fe8; text-decoration: none; }
     .contact-row a:hover { text-decoration: underline; }
 
-    /* keyword grid */
     .keyword-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -295,6 +263,8 @@
     .keyword-card.kw-pink   { border-color: #ffb3ba; }
     .keyword-card.kw-blue   { border-color: #bae1ff; }
     .keyword-card.kw-green  { border-color: #baffc9; }
+    .keyword-card.kw-yellow { border-color: #ffd700; }
+    .keyword-card.kw-purple { border-color: #d4baff; }
 
     footer {
       text-align: center;
@@ -306,9 +276,7 @@
 
     .footer-rainbow {
       height: 4px;
-      background: linear-gradient(90deg,
-        #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff, #d4baff
-      );
+      background: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff, #d4baff);
     }
   </style>
 </head>
@@ -374,9 +342,17 @@
           <span class="k-emoji">📊</span>
           <span class="k-label">Data</span>
         </a>
-         <a href="https://jitsupa2004.github.io/Availability" class="keyword-card kw-pink">
-          <span class="k-emoji">💻</span>
+        <a href="https://jitsupa2004.github.io/Availability" class="keyword-card kw-pink">
+          <span class="k-emoji">🟢</span>
           <span class="k-label">Availability</span>
+        </a>
+        <a href="https://jitsupa2004.github.io/web-based-application" class="keyword-card kw-yellow">
+          <span class="k-emoji">🌐</span>
+          <span class="k-label">Web-based Application</span>
+        </a>
+        <a href="https://jitsupa2004.github.io/meeting-room-management" class="keyword-card kw-purple">
+          <span class="k-emoji">🏢</span>
+          <span class="k-label">Meeting Room Management</span>
         </a>
       </div>
     </div>
